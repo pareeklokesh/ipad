@@ -1,198 +1,296 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'TripSans';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'TripSans';
 }
 
 @font-face {
-    font-family: 'TripSans';
-    src: url('../font/TripSans-Bold.otf');
-    font-weight: 900;
+  font-family: 'TripSans';
+  src: url('../font/TripSans-Bold.otf');
+  font-weight: 900;
 }
 @font-face {
-    font-family: 'TripSans';
-    src: url('../font/TripSans-Medium.otf');
-    font-weight: 500;
+  font-family: 'TripSans';
+  src: url('../font/TripSans-Medium.otf');
+  font-weight: 500;
 }
 @font-face {
-    font-family: 'TripSans';
-    src: url('../font/TripSans-Regular.otf');
-    font-weight: 400;
+  font-family: 'TripSans';
+  src: url('../font/TripSans-Regular.otf');
+  font-weight: 400;
 }
- body {
-    font-family: 'TripSans';
- }
- .d-flex {
-    display: flex;
- }
- .justify-center {
-    justify-content: center;
- }
- .align-center {
-    align-items: center;
- }
- .container {
-    width: 100%;
-    max-width: 100%;
-    background: #EAFAF4;
-    position: relative;
- }
- .text-center {
-    width: 100%;
- }
- .h-100vh {
-    min-height: 100vh;
- }
- 
-  .content {
-    padding: 10px 60px;
-    min-height: calc(100vh - 212px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 0;
-    margin-top: -20px;
+body {
+  font-family: 'TripSans';
+  background: #EAFAF4;
 }
-  .explore-title {
-    text-align: center;
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 55.8px;
-  }
-  p {
-    text-align: center;
-    font-size: 24px;
-    line-height: 28.8px;
-    font-weight: 500;
-    margin: 30px 0;
-  }
-  .d-grid {
-    display: grid;
-  }
-  .food-btn {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 0 25px;
-  }
-  a {
-    text-decoration: none;
-  }
-  .btn {
-    background: #fff;
-    border: 2.33px solid #000;
-    border-radius: 146.92px;
-    font-weight: 500;
-    font-size: 34.95px;
-    padding: 15px 2px;
-    transition: all .4s linear;
-    cursor: pointer;
-    line-height: 41.93px;
-  }
-  .btn:hover {
-    background: #34E0A1;
-  }
-  .text-center {
-    text-align: center;
-  }
-  .brand-icon {
-    border: 0;
-    background: transparent;
-    margin-top: 0px;
-  }
-  .brand-icon img {
-    width: 92px;
-  }
-  img {
-    max-width: 100%;
-  }
-  .vector img {
-    width: 130px;
-  }
-  .position-relative {
-    position: relative;
-  }
-  .position-absolute {
-    position: absolute;
-  }
-  .vector1 {
-    right: 30px;
-    top: 0;
-    width: 65px;
-  }
-  .union {
-    left: 30px;
-    width: 65px;
-    bottom: 0;
-  }
-  .vector-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-  }
-  .vector-bottom img {
-    width: 130px;
-  }
-  .brand-block {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -115px;
-  }
-  .group-right {
-    right: 0;
-    top: 28px;
-  }
+.d-flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.container {
+  width: 100%;
+  max-width: 100%;
+  background: #EAFAF4;
+  position: relative;
+}
+.text-center {
+  width: 100%;
+}
+.h-100vh {
+  min-height: 100vh;
+}
 
-  @media (max-width: 992px) {
-    .container {
-        max-width: 100%;
-        width: 100%;
-    }
+.content {
+  padding: 10px 60px;
+  min-height: calc(100vh - 212px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  margin-top: -20px;
+}
+.explore-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 55.8px;
+}
+p {
+  text-align: center;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 500;
+  margin: 30px 0;
+}
+.d-grid {
+  display: grid;
+}
+.food-btn {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 0 25px;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  background: #fff;
+  border: 2.33px solid #000;
+  border-radius: 146.92px;
+  font-weight: 500;
+  font-size: 34.95px;
+  padding: 15px 2px;
+  transition: all .4s linear;
+  cursor: pointer;
+  line-height: 41.93px;
+}
+.btn:hover {
+  background: #34E0A1;
+}
+.text-center {
+  text-align: center;
+}
+.brand-icon {
+  border: 0;
+  background: transparent;
+  margin-top: 0px;
+}
+.brand-icon img {
+  width: 92px;
+}
+img {
+  max-width: 100%;
+}
+.vector img {
+  width: 130px;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.vector1 {
+  right: 30px;
+  top: 0;
+  width: 65px;
+}
+.union {
+  left: 30px;
+  width: 65px;
+  bottom: 0;
+}
+.vector-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.vector-bottom img {
+  width: 130px;
+}
+.brand-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -115px;
+}
+.group-right {
+  right: 0;
+  top: 12%;
+  width: 130px;
+}
+
+@media (max-width: 992px) {
+  .container {
+      max-width: 100%;
+      width: 100%;
   }
+}
 
 
-  /* iPad 11-inch (3rd Gen) in Portrait */
+/* iPad 11-inch (3rd Gen) in Portrait */
 @media only screen and (min-width: 834px) and (max-width: 834px) and (orientation: portrait) {
-    .container {
-        max-width: 100%;
-        width: 100%;
+  .group-right {
+      right: 0;
+      top: 18%;
+    }
+    .content {
+      padding: 10px 20px;
+    }
+    p {
+      font-size: 21px;
     }
 }
 /* iPad 11-inch (3rd Gen) in Landscape */
 @media only screen and (min-width: 1194px) and (max-width: 1194px) and (orientation: landscape) {
-    .container {
-        max-width: 100%;
-        width: 100%;
-    }
+  .container {
+      max-width: 100%;
+      width: 100%;
+  }
 }
 /* iPad 13-inch (5th Gen) in Portrait */
 @media only screen and (min-width: 1366px) and (max-width: 1366px) and (orientation: portrait) {
-    .container {
-        max-width: 100%;
-        width: 100%;
+  .group-right {
+      top: 19%;
     }
 }
 /* iPad 13-inch (5th Gen) in Landscape */
 @media only screen and (min-width: 1024px) and (max-width: 1024px) and (orientation: landscape) {
-    .container {
-        max-width: 100%;
-        width: 100%;
-    }
+  
 }
 
 /* General iPad Portrait Orientation */
 @media only screen and (min-width: 768px) and (max-width: 1366px) and (orientation: portrait) {
-    .container {
-        max-width: 100%;
-        width: 100%;
+  p {
+      font-size: 17px;
+    }
+    .btn {
+      font-size: 22.95px;
+      line-height: 28.93px;
+    }
+    .explore-title {
+      font-size: 52px;
+    }
+    .w-100 {
+      width: 100%;
+    }
+    .content {
+      padding: 10px 15px;
+    }
+    .group-right {
+      top: 0;
     }
 }
 
 /* General iPad Landscape Orientation */
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
-    .container {
-        max-width: 100%;
-        width: 100%;
-    }
+  
+}
+@media (max-width: 992px) {
+  .vector1 {
+    right: 0;
+    width: 55px;
+  }
+  .union {
+    left: 0;
+    width: 50px;
+  }
+  .explore-title {
+    font-size: 52px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 24.8px;
+  }
+  .content {
+    padding: 10px 30px;
+  }
+  .btn {
+    font-size: 18px;
+    padding: 8px 2px;
+    line-height: 40.93px;
+  }
+  .group-right {
+    right: 0;
+    top: 19%;
+    width: 120px;
+  }
+  .vector-bottom img {
+    width: 130px;
+  }
+  .vector img, .vector-bottom img {
+    width: 120px;
+  }
+  .brand-icon img {
+    width: 70px;
+  }
+}
+@media (max-width: 680px) {
+  .content {
+    padding: 10px 10px;
+  }
+  .explore-title {
+    font-size: 32px;
+    line-height: normal;
+  }
+  .union, .vector1 {
+    width: 30px;
+  }
+  .group-right {
+    top: 8%;
+    width: 80px;
+  }
+  .food-btn {
+    gap: 15px;
+    padding: 0;
+  }
+  .vector img, .vector-bottom img {
+    width: 80px;
+  }
+  .brand-icon img {
+    width: 55px;
+  }
+  .content {
+    margin-top: 0;
+  }
+  .content {
+    min-height: calc(100vh - 193px);
+  }
+  .btn {
+    font-size: 14px;
+    padding: 8px 2px;
+    line-height: 28.93px;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    overflow: hidden;
+  }
 }
