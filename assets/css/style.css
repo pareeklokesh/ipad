@@ -186,19 +186,7 @@ img {
 }
 
 
-/* iPad 11-inch (3rd Gen) in Portrait */
-@media only screen and (min-width: 834px) and (max-width: 834px) and (orientation: portrait) {
-  .group-right {
-      right: 0;
-      top: 18%;
-    }
-    .content {
-      padding: 10px 20px;
-    }
-    p {
-      font-size: 21px;
-    }
-}
+
 /* iPad 11-inch (3rd Gen) in Landscape */
 @media only screen and (min-width: 1194px) and (max-width: 1194px) and (orientation: landscape) {
   .container {
@@ -242,7 +230,56 @@ img {
 
 /* General iPad Landscape Orientation */
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
-  
+  .explore-title {
+    font-size: 82px;
+    line-height: 88.8px;
+  }
+  p {
+    font-size: 32px;
+    line-height: 52.8px;
+  }
+  .btn {
+    font-size: 38.95px;
+    line-height: 65.93px;
+  }
+  .vector img, .vector-bottom img, .group-right, .vector1, .union, .group-right {
+    width: auto;
+  }
+  .group-right {
+    top: 25%;
+  }
+  .content {
+    margin-top: -5%;
+  }
+  .content {
+    min-height: calc(100vh - 217px);
+  }p {
+    margin: 40px 0;
+    margin-bottom: 50px;
+  }
+}
+/* iPad 11-inch (3rd Gen) in Portrait */
+@media only screen and (min-width: 793px) and (max-width: 1194px) and (orientation: landscape) {
+  .explore-title {
+    font-size: 70px;
+    line-height: 75.8px;
+}
+p {
+  font-size: 26px;
+  line-height: 42.8px;
+}
+.btn {
+  font-size: 32.95px;
+  line-height: 60.93px;
+}
+.group-right {
+  top: 20%;
+}
+p {
+  margin: 30px 0;
+  margin-bottom: 40px;
+}
+
 }
 @media (max-width: 992px) {
   .vector1 {
